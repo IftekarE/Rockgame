@@ -1,0 +1,114 @@
+body{
+    background-image: url(backdrop.png);/*this is setting the background image*/
+}
+button{/*this is making it so the buttons are transparent*/
+    background-color: transparent;
+    border: none;
+    margin-right: 3px;
+}
+.rock{/*this is making it so the rock div is a cetrain size and at a certain place*/
+    width: 130px;
+    height: 120px;
+    margin-left: 17.5px;
+    margin-top: 120px;
+}
+.paper{/*this is making it so the paper div is a cetrain size and at a certain place*/
+    width: 130px;
+    height: 120px;
+    margin-left: 17.5px;
+    margin-top: 40px;
+}
+.scissor{/*this is making it so the sicssor div is a cetrain size and at a certain place*/
+    width: 130px;
+    height: 120px;
+    margin-left: 17.5px;
+    margin-top: 40px;
+}
+.lizard{/*this is making it so the lizard div is a cetrain size and at a certain place*/
+    width: 130px;
+    height: 120px;
+    margin-left: 17.5px;
+    margin-top: 40px;
+}
+.spock{/*this is making it so the spock div is a cetrain size and at a certain place*/
+    width: 130px;
+    height: 120px;
+    margin-left: 17.5px;
+    margin-top: 40px;
+}
+
+.body{/*this is making it so the body div is a cetrain size and at a certain place*/
+    margin-left: 168px;
+    height: 700px;
+    width: 1570px;
+    margin-top: -780px;
+}
+.rule{/*this is making it so the rlue div is a cetrain size and at a certain place*/
+    height: 600px;
+    width: 570px;
+    margin-top:100px;
+    margin-left: 1000px; 
+    
+}
+.area{/*this is making it so the area div is a cetrain size and at a certain place*/
+    width: 1000px;
+    height: 800px;
+    margin-top: -700px;
+    
+}
+.profile{/*this is making it so the profile div is a cetrain size and at a certain place*/
+    width:250px;
+    height: 800px;
+    margin-top: -700px;
+    background-color: rgb(245,193,113);
+}
+.area2{/*this is making it so the area2 div is a cetrain size and at a certain place*/
+    width:750px;
+    height: 750px;
+    background-color: tomato;
+    margin-left:275px;
+    margin-top: -775px;
+}
+.player1{/*this is making it so the player1 div is a cetrain size and at a certain place and font*/
+    width: 145px;
+    height: 175px;
+    margin-left: 37.5px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.player2{/*this is making it so the player2 div is a cetrain size and at a certain place and font*/
+    width: 145px;
+    height: 175px;
+    margin-left: 37.5px;
+    margin-top:92px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.player3{/*this is making it so the player3 div is a cetrain size and at a certain place and font*/
+    width: 145px;
+    height: 175px;
+    margin-left: 37.5px;
+    margin-top: 92px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+img{/*this is making it so the image is a certain size and at a certain location */
+    height: 300px;
+    width: 300px;
+    margin-left: 135px;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 135px;
+}
+ul{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 135px;
+}
+li{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
