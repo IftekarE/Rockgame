@@ -9,6 +9,7 @@ var player2 = 0;
 var player3 = 0;
 var numbergen = 0; 
 
+var clicked = 0;
 var placeholder1 = 0;
 var placeholder2 = 0;
 var placeholder3 = 0;
@@ -25,7 +26,7 @@ function deciding_winner(){ //this function decides the winner of the game after
         rounds--;
         Player1();
         Player2();
-        player3();
+        Player3();
         ties();
         winner2_3way();
         allout();
@@ -51,7 +52,28 @@ function deciding_winner(){ //this function decides the winner of the game after
         }
     } 
  
-    
+    function Player3(){//this segment of code is for player 3's input
+        if(clicked == 1){
+             player3 = 7;
+             console.log(player3);
+        }
+        if(clicked == 2){
+             player3 = 6;
+             console.log(player3);
+        }
+        if(clicked == 3){
+             player3 = 5;
+             console.log(player3);
+        }
+        if(clicked == 4){
+             player3 = 3;
+             console.log(player3);
+        }
+        if(clicked == 5){
+             player3 = 11;
+             console.log(player3);
+        }
+    }
 
     function Player1() {//this function selects the sign for player 1
         player1 = 0;
@@ -104,11 +126,7 @@ function deciding_winner(){ //this function decides the winner of the game after
             player2 = 11;
         }
     }
-    function player3(){//this segment of code is for player 3's input
-
-    }
-
-    
+ 
     function ties(){ //this function decides wether the inputs result in a 3 way or 2 way tie
         
         placeholder1 = 0;
@@ -425,4 +443,4 @@ function allout(){//this function will determine the winner of a 1v1v1
         }
     }
 }
-    //move to next sign
+    
