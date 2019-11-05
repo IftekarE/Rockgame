@@ -7,21 +7,48 @@
 </head>
 <body>  <!--the divs rock paper scissors and spock contain buttons to set input value-->
     <div class= "rock">
-        <button i class="far fa-hand-rock fa-7x" onclick ="var clicked = 1;" onclick =" Player3(); "></button>
+        <button i class="far fa-hand-rock fa-7x" onclick =" Player3R(); "></button>
     </div>
     <div class= "paper">
-        <button i class="far fa-hand-paper fa-7x" onclick ="var clicked = 2;" onclick =" Player3();"></button>
+        <button i class="far fa-hand-paper fa-7x"  onclick =" Player3P();"></button>
     </div>
     <div class= "scissor">
-        <button i class="far fa-hand-scissors fa-7x" onclick ="var clicked = 3;" onclick =" Player3();"></button>
+        <button i class="far fa-hand-scissors fa-7x"  onclick =" Player3S();"></button>
     </div>
     <div class= "lizard">
-        <button i class="far fa-hand-lizard fa-7x" onclick ="var clicked = 4;" onclick =" Player3();"></button>
+        <button i class="far fa-hand-lizard fa-7x" onclick =" Player3L();"></button>
     </div>
     <div class= "spock">
-        <button i class="far fa-hand-spock fa-7x" onclick ="var clicked = 5;" onclick =" Player3();"></button>
+        <button i class="far fa-hand-spock fa-7x"  onclick =" Player3SP();"></button>
     </div> 
-
+<script>
+    var player3 = 0;
+    function Player3R(){//this segment of code is for player 3's input ROCK
+        player3 = 7;
+        console.log("player 3 chose Rock");
+        console.log(player3);
+    }
+    function Player3P(){//this segment of code is for player 3's input PAPER
+        player3 = 6;
+        console.log("player 3 chose Paper");
+        console.log(player3);
+    }
+    function Player3S(){//this segment of code is for player 3's input SICSSOR
+        player3 = 5;
+        console.log("player 3 chose Sicssor");
+        console.log(player3);
+    }
+    function Player3L(){//this segment of code is for player 3's input LIZARD
+        player3 = 3;
+        console.log("player 3 chose Lizard");
+        console.log(player3);
+    }
+    function Player3SP(){//this segment of code is for player 3's input SPOCK
+        player3 = 11;
+        console.log("player 3 chose Spock");
+        console.log(player3);
+    }
+</script>
 <div class= "body">
     <div class= "rule"><!--everything in this div is used to inform the plaeyr of the rules-->
         <img src="Rule.png">
