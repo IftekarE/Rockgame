@@ -2,7 +2,15 @@
 <head>
     <title>Rock, Paper, sscissors, Lizards, Spock</title>
     <link rel="stylesheet" href="style.css"><!--this is linking the style sheet to the html file-->
-    <script src="logic.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Restart.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Deciding_winner.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Player1.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Player2.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Player3.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Ties.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Ties_winners.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="FFA.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Points.js"></script><!--this is linking the javascript file to the html file-->
     <script src="https://kit.fontawesome.com/c730c1b384.js" crossorigin="anonymous"></script><!--this is linking the fonts to the html file-->
 </head>
 <body>  <!--the divs rock paper scissors and spock contain buttons to set input value-->
@@ -21,34 +29,6 @@
     <div class= "spock">
         <button i class="far fa-hand-spock fa-7x"  onclick =" Player3SP();"></button>
     </div> 
-<script>
-    var player3 = 0;
-    function Player3R(){//this segment of code is for player 3's input ROCK
-        player3 = 7;
-        console.log("player 3 chose Rock");
-        console.log(player3);
-    }
-    function Player3P(){//this segment of code is for player 3's input PAPER
-        player3 = 6;
-        console.log("player 3 chose Paper");
-        console.log(player3);
-    }
-    function Player3S(){//this segment of code is for player 3's input SICSSOR
-        player3 = 5;
-        console.log("player 3 chose Sicssor");
-        console.log(player3);
-    }
-    function Player3L(){//this segment of code is for player 3's input LIZARD
-        player3 = 3;
-        console.log("player 3 chose Lizard");
-        console.log(player3);
-    }
-    function Player3SP(){//this segment of code is for player 3's input SPOCK
-        player3 = 11;
-        console.log("player 3 chose Spock");
-        console.log(player3);
-    }
-</script>
 <div class= "body">
     <div class= "rule"><!--everything in this div is used to inform the plaeyr of the rules-->
         <img src="Rule.png">
@@ -69,7 +49,12 @@
             <div class= "player3"><i class="far fa-user-circle fa-9x"></i>Player 3</div>
         </div>
 
-        <div class= "area2"></div><!--this is the area where the game takes place-->
+        <div class= "area2">
+            <div class="resetb">
+                <button i class="fas fa-undo fa-2x" onclick =" restart();"></button>
+                <button i class="fas fa-check fa-2x" onclick =" deciding_winner();"></button>
+            </div>  
+        </div><!--this is the area where the game takes place-->
     </div>
 
 </div>

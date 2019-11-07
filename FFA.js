@@ -112,7 +112,7 @@ function allout(){//this function will determine the winner of a 1v1v1
     }
     if(placeholder1 == 11){//this block will only work if player 1 is spock
         if(placeholder2 + placeholder3 == 12){//its checking to see if player 2 and 3 are countered by player1
-            p1wins()
+            p1wins();
             deciding_winner();//moves to next round
         }else{
             if(placeholder2 + placeholder3 == 9){//this checks if player 2 and player 3 counters player 1
@@ -137,4 +137,3 @@ function allout(){//this function will determine the winner of a 1v1v1
         }
     }
 }
-    
