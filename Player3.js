@@ -89,19 +89,19 @@
     function Player3SP(){//this segment of code is for player 3's input SPOCK
     if(entry == 1){
         if(P31 == 0){// this perticular if statment determines which round the game is in
-            P31 = 7;
+            P31 = 11;
         }
         if(P32 == 0){
-            P32 = 7;
+            P32 = 11;
         }
         if(P33 == 0){
-            P33 = 7;
+            P33 = 11;
         }
         if(P34 == 0){
-            P34 = 7;
+            P34 = 11;
         }
         if(P35 == 0){
-            P35 = 7;
+            P35 = 11;
         }   
         p3sp = p3sp + 1;
     }else{
