@@ -2,8 +2,12 @@ function deciding_winner(){ //this function decides the winner of the game after
     if(rounds == 0){//this is checking if the system should conclude the game
         reset = 0;
     } 
-    if(reset = 1){ // this is what determines wether or not the games has eneded all 5 rounds and running all the segments of code
+    if(rounds < 0){//this is checking if the system should conclude the game
+        reset = 0;
+    }
+    if(reset == 1){ // this is what determines wether or not the games has eneded all 5 rounds and running all the segments of code
         rounds = rounds - 1;
+        console.log("the round is " + rounds);
         Player1();
         Player2();
             if(rounds == 4){
@@ -21,6 +25,7 @@ function deciding_winner(){ //this function decides the winner of the game after
             if(rounds == 0){
                 player3 = P35;
             }
+        console.log(player3);
         ties();
     }else{  
             if(p1points + p2points + p3points == 15){// this is adding the scores of all player to see if its a draw
