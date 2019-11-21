@@ -25,25 +25,30 @@ function deciding_winner(){ //this function decides the winner of the game after
             if(rounds == 0){
                 player3 = P35;
             }
-        console.log(player3);
+        console.log("this is the input for player3 " + player3);
         ties();
     }else{  
-            if(p1points + p2points + p3points == 15){// this is adding the scores of all player to see if its a draw
-                alert("this game is a draw");
+        console.log("this is player1's points " + p1points);
+        console.log("this is player2's points " + p2points);
+        console.log("this is player3's points " + p3points);
+            if(p1points == p2points){
+                if(p2points == p3points){// this is adding the scores of all player to see if its a draw
+                console.log("this game is a draw");
             }else{
                 if (p1points > p2points) { //this is checking to see if player1 has more points than player2 
-                    if (p1points > p3points) { //this is checking to see if player 1 has more points than player 3 
-                        alert("Player1 wins the game");
+                    if (p1points > p3points) { //this is checking to see if player 1 has more points than player 3     
+                        console.log("Player1 wins the game");
                     }else{
-                        alert("Player3 wins the game");
+                        console.log("Player3 wins the game");
                     }
                 }else{
                     if (p2points > p3points) { //this is checing to see if player2 has more pints than player 3 
-                        alert("Player 2 wins the game");
+                        console.log("Player2 wins the game");
                     }else{
-                        alert("Player3 wins the game");
+                        console.log("Player3 wins the game");
                     }
                 }
             }
         }
     } 
+}

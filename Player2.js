@@ -22,5 +22,5 @@ function Player2() {//this function selects the sign for palyer 2
             player2 = 11;
             p2sp = p2sp + 1;
         }
-        console.log(player2);
+        console.log("this is the input for player2 " + player2);
     }
