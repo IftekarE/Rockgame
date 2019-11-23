@@ -20,7 +20,7 @@
             } 
         p3r = p3r + 1;  
     }else{
-        alert("click the arrow to reset");
+        console.log("click the arrow to reset");
     }     
     }
     function Player3P(){//this segment of code is for player 3's input PAPER
@@ -45,7 +45,7 @@
             } 
         p3p = p3p + 1;   
     }else{
-        alert("click the arrow to reset");
+        console.log("click the arrow to reset");
     }  
     }
     function Player3S(){//this segment of code is for player 3's input SICSSOR
@@ -70,7 +70,7 @@
             } 
         p3s = p3s + 1;
     }else{
-        alert("click the arrow to reset");
+        console.log("click the arrow to reset");
     }    
     }
     function Player3L(){//this segment of code is for player 3's input LIZARD
@@ -95,7 +95,7 @@
             } 
         p3l = p3l + 1; 
     }else{
-        alert("click the arrow to reset");
+        console.log("click the arrow to reset");
     }     
     }
     function Player3SP(){//this segment of code is for player 3's input SPOCK
@@ -120,6 +120,6 @@
             } 
         p3sp = p3sp + 1;
     }else{
-        alert("click the arrow to reset");
+        console.log("click the arrow to reset");
     }
     }

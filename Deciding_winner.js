@@ -1,10 +1,11 @@
 function deciding_winner(){ //this function decides the winner of the game after 5 rounds
     if(rounds == 0){//this is checking if the system should conclude the game
         reset = 0;
-    } 
+    }else{ 
     if(rounds < 0){//this is checking if the system should conclude the game
         reset = 0;
     }
+}
     if(reset == 1){ // this is what determines wether or not the games has eneded all 5 rounds and running all the segments of code
         rounds = rounds - 1;
         console.log("the round is " + rounds);
@@ -31,6 +32,7 @@ function deciding_winner(){ //this function decides the winner of the game after
         console.log("this is player1's points " + p1points);
         console.log("this is player2's points " + p2points);
         console.log("this is player3's points " + p3points); 
+        entry = 0;
         if(p1points == p2points){
             if(p1points == p3points){
                 console.log("this game is a draw");

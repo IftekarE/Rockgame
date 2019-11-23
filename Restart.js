@@ -57,5 +57,5 @@ placeholder2 = 0;
 placeholder3 = 0;
 draws = 0;
 entry = 1;
-alert("palyers please enter all 5 input");
+console.log("palyers please enter all 5 input");
 }

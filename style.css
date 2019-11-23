@@ -61,6 +61,7 @@ button{/*this is making it so the buttons are transparent*/
     height: 800px;
     margin-top: -700px;
     background-color: rgb(245,193,113);
+    margin-left: -1px;
 }
 .area2{/*this is making it so the area2 div is a cetrain size and at a certain place*/
     width:750px;
@@ -116,4 +117,13 @@ li{/*this is making it so the font size type and placements of the list tag are 
     width: 44px;
     height: 34px;
     margin-left:5px;
+}
+button:hover{
+    color: rgb(245,193,113);
+}
+button:focus{
+    outline:0;  
+}
+button:active{
+    color: rgb(0,189,165);     
 }
