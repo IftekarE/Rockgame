@@ -30,25 +30,49 @@ function deciding_winner(){ //this function decides the winner of the game after
     }else{  
         console.log("this is player1's points " + p1points);
         console.log("this is player2's points " + p2points);
-        console.log("this is player3's points " + p3points);
-            if(p1points == p2points){
-                if(p2points == p3points){// this is adding the scores of all player to see if its a draw
+        console.log("this is player3's points " + p3points); 
+        if(p1points == p2points){
+            if(p1points == p3points){
                 console.log("this game is a draw");
+            }
+        }else{
+            if(p1points == p2points){
+                if(p1points > p3points){
+                    console.log("players 1 & 2 won the game");
+                }else{
+                    console.log("player3 has won the game");
+                }
             }else{
-                if (p1points > p2points) { //this is checking to see if player1 has more points than player2 
-                    if (p1points > p3points) { //this is checking to see if player 1 has more points than player 3     
-                        console.log("Player1 wins the game");
+                if(p2points == p3points){
+                    if(p2points > p1points){
+                        console.log("players 2 & 3 have won the game");
                     }else{
-                        console.log("Player3 wins the game");
+                        console.log("player1 has won the game");
                     }
                 }else{
-                    if (p2points > p3points) { //this is checing to see if player2 has more pints than player 3 
-                        console.log("Player2 wins the game");
+                    if(p1points == p3points){
+                        if(p1points > p2points){
+                            console.log("players 1 & 3 have won the game");
+                        }else{
+                            console.log("player2 has won the game");
+                        }
                     }else{
-                        console.log("Player3 wins the game");
+                        if(p1points > p2points){
+                            if(p1points > p3points){
+                                console.log("player1 has won the game");
+                            }else{
+                                console.log("player3 has won the game");
+                            }
+                        }else{
+                            if(p2points > p3points){
+                                console.log("player2 has won the game");
+                            }else{
+                                console.log("player3 has won the game");
+                            }
+                        }
                     }
                 }
             }
         }
-    } 
+    }
 }
