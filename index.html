@@ -11,6 +11,7 @@
     <script src="Ties_winners.js"></script><!--this is linking the javascript file to the html file-->
     <script src="FFA.js"></script><!--this is linking the javascript file to the html file-->
     <script src="Points.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="Display.js"></script><!--this is linking the javascript file to the html file-->
     <script src="https://kit.fontawesome.com/c730c1b384.js" crossorigin="anonymous"></script><!--this is linking the fonts to the html file-->
 </head>
 <body>  <!--the divs rock paper scissors and spock contain buttons to set input value-->
@@ -44,16 +45,88 @@
 
     <div class= "area"><!--everything in this div is used to show the icons of the players-->
         <div class="profile">
-            <div class= "player1"><i class="far fa-user-circle fa-9x"></i>Player 1</div>
-            <div class= "player2"><i class="far fa-user-circle fa-9x"></i>Player 2</div>
-            <div class= "player3"><i class="far fa-user-circle fa-9x"></i>Player 3</div>
+            <div class= "player1"><i class="far fa-user-circle fa-9x"></i>Player 1 <br> Starting Score: 5</div>
+            <div class= "player2"><i class="far fa-user-circle fa-9x"></i>Player 2 <br> Starting Score: 5</div>
+            <div class= "player3"><i class="far fa-user-circle fa-9x"></i>Player 3 <br> Starting Score: 5</div>
         </div>
 
         <div class= "area2">
-            <div class="resetb">
+            <div class="reset">
                 <button i class="fas fa-undo fa-2x" onclick =" restart();"></button>
                 <button i class="fas fa-check fa-2x" onclick =" deciding_winner();"></button>
             </div>  
+        <div class= "news">
+        
+        </div>
+        <div class= "R1">
+            <button class= "b1">Round 1</button><br>
+            Input-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Result:
+        </div>
+        <div class= "R2">
+            <button class= "b2" onclick ="round2()">Round 2</button><br>
+            Input-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Result:
+        </div>
+        <div class= "R3">
+                <button class= "b3">Round 3</button><br>
+            Input-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Result:
+        </div>
+        <div class= "R4">
+            <button class= "b4">Round 4</button><br>
+            Input-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Result:
+        </div>
+        <div class= "R5">
+            <button class= "b5">Round 5</button><br>
+            Input-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Result:
+        </div>
+        <div class= "G1">
+            <p class = "G2">
+            Score-<br>
+            Player1:<br>
+            Player2:<br>
+            Player3:<br>
+            Game winner:
+            </p>
+        </div>
         </div><!--this is the area where the game takes place-->
     </div>
 

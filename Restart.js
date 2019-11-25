@@ -1,3 +1,14 @@
+var p1choice = [];
+var p2choice = [];
+var p3choice = [];
+
+var p1score = [];
+var p2score = [];
+var p3score = [];
+
+var roundwinner = [];
+
+var need;
 var reset = 1;//lines 1 through 5 are variables for the point system of the game
 var rounds = 5;
 var p1points = 5; 
@@ -57,5 +68,13 @@ placeholder2 = 0;
 placeholder3 = 0;
 draws = 0;
 entry = 1;
+p1choice = [];
+p2choice = [];
+p3choice = [];
+p1score = [];
+p2score = [];
+p3score = [];
+roundwinner = [];
+need = 0;
 console.log("palyers please enter all 5 input");
 }

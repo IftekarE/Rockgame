@@ -8,7 +8,6 @@ function deciding_winner(){ //this function decides the winner of the game after
 }
     if(reset == 1){ // this is what determines wether or not the games has eneded all 5 rounds and running all the segments of code
         rounds = rounds - 1;
-        console.log("the round is " + rounds);
         Player1();
         Player2();
             if(rounds == 4){
@@ -26,50 +25,46 @@ function deciding_winner(){ //this function decides the winner of the game after
             if(rounds == 0){
                 player3 = P35;
             }
-        console.log("this is the input for player3 " + player3);
         ties();
-    }else{  
-        console.log("this is player1's points " + p1points);
-        console.log("this is player2's points " + p2points);
-        console.log("this is player3's points " + p3points); 
+    }else{
         entry = 0;
         if(p1points == p2points){
             if(p1points == p3points){
-                console.log("this game is a draw");
+                roundwinner.push("this game is a draw");
             }
         }else{
             if(p1points == p2points){
                 if(p1points > p3points){
-                    console.log("players 1 & 2 won the game");
+                    roundwinner.push("players 1 & 2 won the game");
                 }else{
-                    console.log("player3 has won the game");
+                    roundwinner.push("player3 has won the game");
                 }
             }else{
                 if(p2points == p3points){
                     if(p2points > p1points){
-                        console.log("players 2 & 3 have won the game");
+                        roundwinner.push("players 2 & 3 have won the game");
                     }else{
-                        console.log("player1 has won the game");
+                        roundwinner.push("player1 has won the game");
                     }
                 }else{
                     if(p1points == p3points){
                         if(p1points > p2points){
-                            console.log("players 1 & 3 have won the game");
+                            roundwinner.push("players 1 & 3 have won the game");
                         }else{
-                            console.log("player2 has won the game");
+                            roundwinner.push("player2 has won the game");
                         }
                     }else{
                         if(p1points > p2points){
                             if(p1points > p3points){
-                                console.log("player1 has won the game");
+                                roundwinner.push("player1 has won the game");
                             }else{
-                                console.log("player3 has won the game");
+                                roundwinner.push("player3 has won the game");
                             }
                         }else{
                             if(p2points > p3points){
-                                console.log("player2 has won the game");
+                                roundwinner.push("player2 has won the game");
                             }else{
-                                console.log("player3 has won the game");
+                                roundwinner.push("player3 has won the game");
                             }
                         }
                     }

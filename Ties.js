@@ -4,7 +4,7 @@ function ties(){ //this function decides wether the inputs result in a 3 way or 
     draws = 0;
     if(player1 == player2){
         if(player2 == player3){
-            console.log( "round " + rounds +" is a 3 way tie");
+            roundwinner.push("this round is a 3 way tie");
             deciding_winner();
         }else{twoway();}
     }else{twoway();}
@@ -14,23 +14,23 @@ function twoway(){
     placeholder2 = 0;
     draws = 0;
      if(player1 + player2 + player3 == 21){
-        console.log( "round " + rounds +" is a 3 way tie");
+        roundwinner.push("this round is a 3 way tie");
         deciding_winner();
     }else{
         if(player1 + player2 + player3 == 19){
-            console.log( "round " + rounds +" is a 3 way tie");
+            roundwinner.push("this round is a 3 way tie");
             deciding_winner();
         }else{
             if(player1 + player2 + player3 == 22){
-                console.log( "round " + rounds +" is a 3 way tie");
+                roundwinner.push("this round is a 3 way tie");
                 deciding_winner();
             }else{
                 if(player1 + player2 + player3 == 18){
-                    console.log( "round " + rounds +" is a 3 way tie");
+                    roundwinner.push("this round is a 3 way tie");
                     deciding_winner();
                 }else{
                     if(player1 + player2 + player3 == 16){
-                        console.log( "round " + rounds +" is a 3 way tie");
+                        roundwinner.push("this round is a 3 way tie");
                         deciding_winner();
                     }else{
                         if(player1 == player2){

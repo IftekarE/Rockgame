@@ -2,18 +2,23 @@
     if(entry == 1){
         if(P31 == 0){
             P31 = 7;
+            p3choice.push("Rock");
         }else{
             if(P32 == 0){
                 P32 = 7;
+                p3choice.push("Rock");
             }else{ 
                 if(P33 == 0){
                     P33 = 7;
+                    p3choice.push("Rock");
                 }else{
                     if(P34 == 0){
                         P34 = 7;
+                        p3choice.push("Rock");
                     }else{ 
                         if(P35 == 0){
-                            P35 = 7;}
+                            P35 = 7;
+                            p3choice.push("Rock");}
                         }
                     }
                 }
@@ -27,18 +32,23 @@
     if(entry == 1){
         if(P31 == 0){
             P31 = 6;
+            p3choice.push("Paper");
         }else{
             if(P32 == 0){
                 P32 = 6;
+                p3choice.push("Paper");
             }else{ 
                 if(P33 == 0){
                     P33 = 6;
+                    p3choice.push("Paper");
                 }else{
                     if(P34 == 0){
                         P34 = 6;
+                        p3choice.push("Paper");
                     }else{ 
                         if(P35 == 0){
-                            P35 = 6;}
+                            P35 = 6;
+                            p3choice.push("Paper");}
                         }
                     }
                 }
@@ -52,18 +62,23 @@
     if(entry == 1){// this perticular if statment determines which round the game is in 
         if(P31 == 0){
             P31 = 5;
+            p3choice.push("Scissor");
         }else{
             if(P32 == 0){
                 P32 = 5;
+                p3choice.push("Scissor");
             }else{ 
                 if(P33 == 0){
                     P33 = 5;
+                    p3choice.push("Scissor");
                 }else{
                     if(P34 == 0){
                         P34 = 5;
+                        p3choice.push("Scissor");
                     }else{ 
                         if(P35 == 0){
-                            P35 = 5;}
+                            P35 = 5;
+                            p3choice.push("Scissor");}
                         }
                     }
                 }
@@ -77,18 +92,23 @@
     if(entry == 1){
         if(P31 == 0){
             P31 = 3;
+            p3choice.push("Lizard");
         }else{
             if(P32 == 0){
                 P32 = 3;
+                p3choice.push("Lizard");
             }else{ 
                 if(P33 == 0){
                     P33 = 3;
+                    p3choice.push("Lizard");
                 }else{
                     if(P34 == 0){
                         P34 = 3;
+                        p3choice.push("Lizard");
                     }else{ 
                         if(P35 == 0){
-                            P35 = 3;}
+                            P35 = 3;
+                            p3choice.push("Lizard");}
                         }
                     }
                 }
@@ -102,18 +122,23 @@
     if(entry == 1){
         if(P31 == 0){
             P31 = 11;
+            p3choice.push("Spock");
         }else{
             if(P32 == 0){
                 P32 = 11;
+                p3choice.push("Spock");
             }else{ 
                 if(P33 == 0){
                     P33 = 11;
+                    p3choice.push("Spock");
                 }else{
                     if(P34 == 0){
                         P34 = 11;
+                        p3choice.push("Spock");
                     }else{ 
                         if(P35 == 0){
-                            P35 = 11;}
+                            P35 = 11;
+                            p3choice.push("Spock");}
                         }
                     }
                 }
