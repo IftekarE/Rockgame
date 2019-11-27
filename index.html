@@ -56,78 +56,48 @@
                 <button i class="fas fa-check fa-2x" onclick =" deciding_winner();"></button>
             </div>  
         <div class= "news">
-        
+            <p class="something">Alert: <span id="can10"></span></p>
         </div>
-        <div class= "R1">
-            <button class= "b1">Round 1</button><br>
-            Input-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Result:
+        <div class= "round-buttons">
+        <ul class= "RBS">
+            <p class="inputnum">Number of inputs selected: <span id="can0"></span></p>
+            <li><button class= "b1" onclick="round1();">See Round 1 Results</button></li>
+            <li><button class= "b2" onclick="round2();">See Round 2 Results</button></li>
+            <li><button class= "b3" onclick="round3();">See Round 3 Results</button></li>
+            <li><button class= "b4" onclick="round4();">See Round 4 Results</button></li>
+            <li><button class= "b5" onclick="round5();">See Round 5 Results</button></li>
+        </ul>
         </div>
-        <div class= "R2">
-            <button class= "b2" onclick ="round2()">Round 2</button><br>
-            Input-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Result:
-        </div>
-        <div class= "R3">
-                <button class= "b3">Round 3</button><br>
-            Input-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Result:
-        </div>
-        <div class= "R4">
-            <button class= "b4">Round 4</button><br>
-            Input-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Result:
-        </div>
-        <div class= "R5">
-            <button class= "b5">Round 5</button><br>
-            Input-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Result:
-        </div>
-        <div class= "G1">
-            <p class = "G2">
-            Score-<br>
-            Player1:<br>
-            Player2:<br>
-            Player3:<br>
-            Game winner:
-            </p>
-        </div>
+        <div class="candiv">
+            <p class="roundp">Round: <span id="can1"></span></p>
+            <p class="roundp">Inputs-</p>
+            <ul class="a1">
+                <li>Player1: <span id="can2"></span></li>
+                <li>Player2: <span id="can3"></span></li>
+                <li>Player3: <span id="can4"></span></li>
+            </ul>
+            <p class="roundp">Score-</p>
+            <ul class="a2">
+                <li>Player1: <span id="can5"></span></li>
+                <li>Player2: <span id="can6"></span></li>
+                <li>Player3: <span id="can7"></span></li>
+            </ul>
+            <p class="roundp">Winner-</p>
+            <ul class="a3">
+                <li>Round winner: <span id="can8"></span></li>
+                <li>Game winner: <span id="can9"></span></li>
+            </ul>
         </div><!--this is the area where the game takes place-->
+        <div class="something2">
+            <p class="roundp1">How to play the game</p>
+            <ul class="a4">
+                <li>You are player number 3</li>
+                <li>Click arrow to start</li>
+                <li>Select 5 inputs</li>
+                <li>Click check mark once all inputs are selected</li>
+                <li>Click on see round results button for more information</li>
+            </ul>
+        </div>
     </div>
 
 </div>

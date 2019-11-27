@@ -27,5 +27,4 @@ function Player1() {//this function selects the sign for player 1
             p1sp = p1sp + 1;
             p1choice.push("Spock");
         }
-        console.log("this is the input for player1 " + player1);
     }

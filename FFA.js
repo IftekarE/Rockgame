@@ -105,9 +105,6 @@ function allout(){//this function will determine the winner of a 1v1v1
                                     }
                                 }
                             }
-                        }else{
-                            console.log("please Restart the game");
-                            console.log(placeholder1);
                         }
                     }
                 }

@@ -27,5 +27,4 @@ function Player2() {//this function selects the sign for palyer 2
             p2sp = p2sp + 1;
             p2choice.push("Spock");
         }
-        console.log("this is the input for player2 " + player2);
     }

@@ -112,8 +112,8 @@ li{/*this is making it so the font size type and placements of the list tag are 
     font-size: 20px;
     font-family: sans-serif;  
 }
-.resetb{/*this is making it so the placements of the reset button tag are set*/
-    padding-top: 10px;
+.reset{/*this is making it so the placements of the reset button tag are set*/
+    padding-top: 9px;
     width: 44px;
     height: 34px;
     margin-left:5px;
@@ -126,4 +126,64 @@ button:focus{
 }
 button:active{
     color: rgb(0,189,165);     
+}
+.news{
+    width: 475px;
+    height: 75px;
+    margin-top: -35px;
+    margin-left: 275px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.round-buttons{
+    height: 150px;
+    width: 275px; 
+}
+.RBS{
+    padding-left: 0px;
+    margin-left: -10px;
+    list-style-type: none;
+    width: 225px;
+    height: 125px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+.b1, .b2, .b3, .b4, .b5{
+    font-size: 20px;
+    width: 225px;
+    font-family: sans-serif; 
+}
+.candiv{
+    height: 600px;
+    width: 400px;
+    margin-top: -175px;
+    margin-left: 350px;
+}
+.roundp{
+    font-size: 20px;
+    margin-left: 0px;
+}
+.inputnum{
+    margin-left:20px;
+}
+ul.a1, ul.a2, ul.a3{
+    margin-left:35px;
+}
+.something{
+    margin-left: 0px;
+}
+.something2{
+    width: 325px;
+    height:350px;
+    margin-top: -350px;
+}
+.roundp1{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+ul.a4{
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
 }

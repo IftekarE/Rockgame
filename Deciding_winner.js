@@ -30,46 +30,47 @@ function deciding_winner(){ //this function decides the winner of the game after
         entry = 0;
         if(p1points == p2points){
             if(p1points == p3points){
-                roundwinner.push("this game is a draw");
+                roundwinner.push("Draw");
             }
         }else{
             if(p1points == p2points){
                 if(p1points > p3points){
-                    roundwinner.push("players 1 & 2 won the game");
+                    roundwinner.push("players 1 & 2");
                 }else{
-                    roundwinner.push("player3 has won the game");
+                    roundwinner.push("player3");
                 }
             }else{
                 if(p2points == p3points){
                     if(p2points > p1points){
-                        roundwinner.push("players 2 & 3 have won the game");
+                        roundwinner.push("players 2 & 3");
                     }else{
-                        roundwinner.push("player1 has won the game");
+                        roundwinner.push("player1");
                     }
                 }else{
                     if(p1points == p3points){
                         if(p1points > p2points){
-                            roundwinner.push("players 1 & 3 have won the game");
+                            roundwinner.push("players 1 & 3");
                         }else{
-                            roundwinner.push("player2 has won the game");
+                            roundwinner.push("player2");
                         }
                     }else{
                         if(p1points > p2points){
                             if(p1points > p3points){
-                                roundwinner.push("player1 has won the game");
+                                roundwinner.push("player1");
                             }else{
-                                roundwinner.push("player3 has won the game");
+                                roundwinner.push("player3");
                             }
                         }else{
                             if(p2points > p3points){
-                                roundwinner.push("player2 has won the game");
+                                roundwinner.push("player2");
                             }else{
-                                roundwinner.push("player3 has won the game");
+                                roundwinner.push("player3");
                             }
                         }
                     }
                 }
             }
         }
+        round1();
     }
 }
