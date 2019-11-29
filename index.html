@@ -12,6 +12,7 @@
     <script src="FFA.js"></script><!--this is linking the javascript file to the html file-->
     <script src="Points.js"></script><!--this is linking the javascript file to the html file-->
     <script src="Display.js"></script><!--this is linking the javascript file to the html file-->
+    <script src="randomness.js"></script><!--this is linking the javascript file to the html file-->
     <script src="https://kit.fontawesome.com/c730c1b384.js" crossorigin="anonymous"></script><!--this is linking the fonts to the html file-->
 </head>
 <body>  <!--the divs rock paper scissors and spock contain buttons to set input value-->
@@ -39,7 +40,7 @@
             <li>Paper beats rock and spock</li>
             <li>Scissor beats paper and lizard</li>
             <li>Lizard beats spock and paper</li>
-            <li>Spok beats rock and scissor</li>
+            <li>Spock beats rock and scissor</li>
         </ul>
     </div>
 
@@ -52,24 +53,24 @@
 
         <div class= "area2">
             <div class="reset">
-                <button i class="fas fa-undo fa-2x" onclick =" restart();"></button>
-                <button i class="fas fa-check fa-2x" onclick =" deciding_winner();"></button>
+                <button i class="fas fa-undo fa-2x" onclick =" restart();"></button><!--this button resets the game-->
+                <button i class="fas fa-check fa-2x" onclick =" deciding_winner();"></button><!--this button does the computation fo the game-->
             </div>  
         <div class= "news">
-            <p class="something">Alert: <span id="can10"></span></p>
+            <p class="something">Alert: <span id="can10"></span></p><!--this is where in game messages are displayed-->
         </div>
         <div class= "round-buttons">
         <ul class= "RBS">
             <p class="inputnum">Number of inputs selected: <span id="can0"></span></p>
-            <li><button class= "b1" onclick="round1();">See Round 1 Results</button></li>
-            <li><button class= "b2" onclick="round2();">See Round 2 Results</button></li>
-            <li><button class= "b3" onclick="round3();">See Round 3 Results</button></li>
-            <li><button class= "b4" onclick="round4();">See Round 4 Results</button></li>
-            <li><button class= "b5" onclick="round5();">See Round 5 Results</button></li>
+            <li><button class= "b1" onclick="round1();">See Round 1 Results</button></li><!--this shows game results-->
+            <li><button class= "b2" onclick="round2();">See Round 2 Results</button></li><!--this shows game results-->
+            <li><button class= "b3" onclick="round3();">See Round 3 Results</button></li><!--this shows game results-->
+            <li><button class= "b4" onclick="round4();">See Round 4 Results</button></li><!--this shows game results-->
+            <li><button class= "b5" onclick="round5();">See Round 5 Results</button></li><!--this shows game results-->
         </ul>
         </div>
         <div class="candiv">
-            <p class="roundp">Round: <span id="can1"></span></p>
+            <p class="roundp">Round: <span id="can1"></span></p><!--this is where round results are displayed-->
             <p class="roundp">Inputs-</p>
             <ul class="a1">
                 <li>Player1: <span id="can2"></span></li>
@@ -88,7 +89,7 @@
                 <li>Game winner: <span id="can9"></span></li>
             </ul>
         </div><!--this is the area where the game takes place-->
-        <div class="something2">
+        <div class="something2"><!--this is showing the players the rules of the game-->
             <p class="roundp1">How to play the game</p>
             <ul class="a4">
                 <li>You are player number 3</li>
@@ -99,7 +100,6 @@
             </ul>
         </div>
     </div>
-
 </div>
 </body>
 </html>
