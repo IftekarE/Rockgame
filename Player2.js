@@ -15,7 +15,7 @@ function Player2() {//this function selects the sign for palyer 2
         if (numbergen == 3) { //this is looking to see if its sicssors 
             player2 = 5;
             p2s = p2s + 1;
-            p2choice.push("Scissors");
+            p2choice.push("Scissor");
         }
         if (numbergen == 4) { //this is looking to see if its lizard 
             player2 = 3;
