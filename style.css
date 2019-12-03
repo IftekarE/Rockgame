@@ -171,6 +171,7 @@ ul.a1, ul.a2, ul.a3{/*used for coustomizing the message board*/
 }
 .something{/*used for coustomizing the message board*/
     margin-left: 0px;
+    color: azure;
 }
 .something2{/*used for coustomizing the message board*/
     width: 325px;
@@ -179,11 +180,13 @@ ul.a1, ul.a2, ul.a3{/*used for coustomizing the message board*/
 }
 .roundp1{/*used for coustomizing the message board*/
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
+    color: azure;
 }
 ul.a4{/*used for coustomizing the message board*/
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
+    color: azure;
 }
