@@ -130,7 +130,7 @@ function round4(){// this shows the resutlt of round4
 function round5(){// this shows the resutlt of round5
     if(rounds == 0){
     setting();//calling for code to reset message board
-    meshold1 = 5;
+    meshold1 = 4;
     meshold2 = p1choice[4];//lines 134 - 141 are determineing the messages to me displayed
     meshold3 = p2choice[4];
     meshold4 = p3choice[4];
